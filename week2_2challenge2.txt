@@ -1,0 +1,7 @@
+第二题的challenge
+在trap.c中在trap函数中添加一行
+print_trapframe(tf);
+然后执行make qemu命令，可以看到每产生一次中断，就会显示一段栈顶的trapframe内容。
+make qemu >t.txt将内容输出到文件可以看到不同特权级在产生中断时栈顶的区别。
+附件的图片显示的是用户态切换到内核态时产生中断时trapframe的内容的变化
+附件的文本文件显示的是整个过程中trapframe的变化。
