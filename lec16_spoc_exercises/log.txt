@@ -1,0 +1,50 @@
+Process 0 need to be scheduled
+Enqueue process 0
+Stride: dequeue process 1Dequeue process 1
+Run process 1
+Stride: Reallocate timeslice to process 2 : 5
+Process 1 need to be scheduled
+Stride: dequeue process 2Dequeue process 2
+Run process 2
+kernel_execve: pid = 2, name = "exit".
+I am the parent. Forking the child...
+Stride: Reallocate timeslice to process 3 : 5
+I am parent, fork a child pid 3
+I am the parent, waiting now..
+Process 2 need to be scheduled
+Stride: dequeue process 3Dequeue process 3
+Run process 3
+I am the child.
+Process 3 need to be scheduled
+Enqueue process 3
+Stride: dequeue process 3Dequeue process 3
+Process 3 need to be scheduled
+Enqueue process 3
+Stride: dequeue process 3Dequeue process 3
+Process 3 need to be scheduled
+Enqueue process 3
+Stride: dequeue process 3Dequeue process 3
+Process 3 need to be scheduled
+Enqueue process 3
+Stride: dequeue process 3Dequeue process 3
+Process 3 need to be scheduled
+Enqueue process 3
+Stride: dequeue process 3Dequeue process 3
+Process 3 need to be scheduled
+Enqueue process 3
+Stride: dequeue process 3Dequeue process 3
+Process 3 need to be scheduled
+Enqueue process 3
+Stride: dequeue process 3Dequeue process 3
+Process 3 need to be scheduled
+Stride: dequeue process 2Dequeue process 2
+Run process 2
+waitpid 3 ok.
+exit pass.
+Process 2 need to be scheduled
+Stride: dequeue process 1Dequeue process 1
+Run process 1
+Process 1 need to be scheduled
+Enqueue process 1
+Stride: dequeue process 1Dequeue process 1
+
